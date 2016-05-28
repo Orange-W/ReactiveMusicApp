@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CE84B6B51CE862ED001BE205"
+               BuildableName = "ReactiveMusic.app"
+               BlueprintName = "ReactiveMusic"
+               ReferencedContainer = "container:ReactiveMusic.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CE84B6D11CE862ED001BE205"
+               BuildableName = "ReactiveMusicTests.xctest"
+               BlueprintName = "ReactiveMusicTests"
+               ReferencedContainer = "container:ReactiveMusic.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "CE84B6DC1CE862ED001BE205"
+               BuildableName = "ReactiveMusicUITests.xctest"
+               BlueprintName = "ReactiveMusicUITests"
+               ReferencedContainer = "container:ReactiveMusic.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CE84B6B51CE862ED001BE205"
+            BuildableName = "ReactiveMusic.app"
+            BlueprintName = "ReactiveMusic"
+            ReferencedContainer = "container:ReactiveMusic.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CE84B6B51CE862ED001BE205"
+            BuildableName = "ReactiveMusic.app"
+            BlueprintName = "ReactiveMusic"
+            ReferencedContainer = "container:ReactiveMusic.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "CE84B6B51CE862ED001BE205"
+            BuildableName = "ReactiveMusic.app"
+            BlueprintName = "ReactiveMusic"
+            ReferencedContainer = "container:ReactiveMusic.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
